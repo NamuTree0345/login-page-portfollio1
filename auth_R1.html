@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <title>Auth</title>
+        <style>
+            body,html {
+                height: 100%;
+            }
+
+            .bg {
+                background-image: url("bg.jpg");
+
+                /* Full height */
+                height: 100%;
+
+                /* Center and scale the image nicely */
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .centercss{
+                position:absolute;
+                top:0;
+                bottom:0;
+                left:0;
+                right:0;
+
+                margin:auto;
+            }
+
+            .roundblock {
+                height: 350px;
+                width: 500px;
+                border: 2px solid black;
+                background-color: white;
+                border-radius: 5px;
+                text-align: center;
+                box-shadow: 0 0 5px rgb(0, 0, 0);
+            }
+
+            .input {
+                border-radius: 25px;
+                border: 2px solid black;
+                padding: 10px; 
+                width: 300px;
+                height: 5px;
+                box-shadow: 0 0 5px rgb(0, 0, 0);
+            }
+            .btn {
+                border-radius: 25px;
+                border: 2px solid black;
+                padding: 5px; 
+                width: 100px;
+                height: 50px;
+                background-color: blue;
+                color: white;
+                box-shadow: 0 0 5px rgb(0, 0, 0);
+            }
+
+            .dcid_get {
+                font-size: 20px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="bg">
+
+        <div class="roundblock centercss">
+            <h1>HighQuallity Community Auth</h1>
+            <input type="text" class="input" placeholder="디스코드 고유 ID"></input><br/>
+            <div class="dcid_get">디스코드 하이퀄리티 한마포<a href="https://www.koreaminecraft.net/highquality/1390559">(여기)</a> 에서 알아보세요!</div> <br/>
+            <input type="text" class="input" placeholder="마인크래프트 닉네임"></input><br/><br/>
+            <input type="text" class="input" placeholder="마인크래프트 이메일"></input><br/><br/>
+            <input type="password" class="input" placeholder="마인크래프트 비밀번호(저장하지 않음)"></input><br/><br/>
+            <input type="button" onclick="alert('test')" class="btn" value="인증하기"/>
+        </div>
+
+        </div>
+
+    </body>
+</html>
